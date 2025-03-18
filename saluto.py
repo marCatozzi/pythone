@@ -1,3 +1,4 @@
 #saluto.py
 
-print("Mi chiamo Maryuri")
+nome = "Maryuri Catozzi"
+print("Mi chiamo", nome)
