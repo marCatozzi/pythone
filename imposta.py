@@ -15,7 +15,7 @@ imposta_lorda = 0
 if v3 <= 28000:
    imposta_lorda = v3 * 0.23
 else:
-    if v3 > 28000 and v3 <= 50000:
+    if v3 >= 28000 and v3 <= 50000:
        imposta_lorda = ((50000 - 28000) * 0.35)
     else:
        if v3 >= 50000:
