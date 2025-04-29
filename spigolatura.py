@@ -16,3 +16,6 @@ print(titolo)
 paragrafi = soup.find_all("p")
 for p in paragrafi:
     print(p.text)
+
+#Stampa tutto il contenuto
+print(soup.prettify())
