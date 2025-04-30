@@ -15,5 +15,5 @@ for tr in table.contents[2:-2]:
         prov =      tds[1].get_text()
         resi = int (tds[2].get_text().replace(".",""))
         sup = int   (tds[4].get_text().replace(".",""))
-        resi_due = round (resi/sup, 2)
-        print(f"{sigl} {prov:25s} {resi:9d} {sup:4d} {resi_due:3.2f}")
+        den = round (resi/sup, 2)
+        print(f"{sigl} {prov:25s} {resi:9d} {sup:4d} {den:3.2f}")
